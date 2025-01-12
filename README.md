@@ -1,16 +1,40 @@
-# weather_app
+# Flutter Weather App
 
-A new Flutter project.
+## How to Run the App
 
-## Getting Started
+To run the **Weather App** on your local machine, follow these steps:
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository** to your local machine:
+   ```bash
+   git clone https://github.com/sadia104/Flutter_Weather_App.git
+2. Navigate to the project directory:cd Flutter_Weather_App
+3. Install dependencies:
+4. Run the app:
+5. Libraries Used
 
-A few resources to get you started if this is your first Flutter project:
+Here is a list of the libraries used in this app:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    http - For making HTTP requests to fetch weather data.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+dependencies:
+  http: ^0.13.3
+
+provider - For state management.
+
+dependencies:
+  provider: ^6.0.1
+
+shared_preferences - For saving and retrieving user preferences.
+
+dependencies:
+  shared_preferences: ^2.0.6
+
+geolocator - For getting the user's current location.
+
+dependencies:
+  geolocator: ^8.0.0
+
+flutter_bloc - For managing app states using the BLoC pattern.
+
+dependencies:
+  flutter_bloc: ^8.0.0
